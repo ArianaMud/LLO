@@ -18,6 +18,16 @@ a {
     align-items: center;
     justify-content: center;
 }
+img {
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+}
+P{ color:rgb(0, 0, 0);
+  text-align: left;
+  font-size: 1.4r;
+  line-height: 1.9rem;
+}
 
 /* Hero Section */
 #hero {
@@ -125,6 +135,7 @@ padding: 100px 0;
     color:crimson;
 }
 #services .service-top p {
+    color:black;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -167,11 +178,19 @@ padding: 100px 0;
     width: 50px;
     margin-bottom: 20px;
 }
-#services .service-bottom .icon img{
-    height: 100%;
-    width: 100%;
-object-fit: cover;
+#services .service-item h2{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
+#services .service-item p{
+    color: white;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
 /* End Service Section */
 
 /*keyframes */
